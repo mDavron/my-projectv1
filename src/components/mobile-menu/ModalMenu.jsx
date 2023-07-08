@@ -4,7 +4,7 @@ import HamburgerMenu from '../hamburger/HamburgerMenu'
 
 const ModalMenu = ({isOpen,setOpen}) => {
   return (
-    <div className={`${isOpen ? "menu_open" :"menu_hidden"} flex transition-all fixed z-50 bg-slate-600/30 top-0 h-screen w-full justify-end left-0`}>
+    <div className={`${isOpen ? "menu_open" :"menu_hidden"} flex fixed z-50 bg-slate-600/30 top-0 h-screen w-full justify-end left-0`}>
       <div className=' w-[80%] bg-white h-screen relative'>
           <div className='flex flex-col gap-5 items-start py-20 px-10 text-gray-900 '>
           <Link onClick={()=> setOpen(false)} href={'/'}>Home</Link>
