@@ -29,5 +29,5 @@ body {
   @apply ease-in transform translate-x-0 duration-300 opacity-100
 }
 .menu-hidden{
-  @apply transform ease-in translate-x-full duration-300 opacity-0
+  @apply transform ease-in  duration-300 opacity-0
 }
